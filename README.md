@@ -21,7 +21,7 @@ $ github-ssh-keys flootr meaku
 If you use the `--format` flag you are able to auto format keys to fit in a `authorized-keys` file.
 
 ```bash
-$ github-ssh-keys --format flootr meaku jhnns > authorized_keys
+$ github-ssh-keys --format flootr meaku jhnns >> authorized_keys
 ```
 
 ### --format
