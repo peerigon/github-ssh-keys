@@ -1,5 +1,8 @@
 # github-ssh-keys
+
 fetch ssh keys from github for a given username
+
+[![Build Status](https://travis-ci.org/peerigon/github-ssh-keys.svg)](https://travis-ci.org/peerigon/github-ssh-keys) [![Dependency Status](https://david-dm.org/peerigon/github-ssh-keys.svg)](https://david-dm.org/peerigon/github-ssh-keys)
 
 ## Important Notice
 
