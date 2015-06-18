@@ -22,7 +22,9 @@ fetchKeys(username)
 Or, if you want to fetch the keys for more than one user.
 
 ```javascript
-Promise.all(['jhnns', 'meaku', 'topa', 'matthaias', 'sbat', 'flootr'].map(fetchKeys))
+var users = ['jhnns', 'meaku', 'topa', 'matthaias', 'sbat', 'flootr'];
+
+Promise.all(users.map(fetchKeys))
     .then(console.log)
     .catch(console.error);
 ```
