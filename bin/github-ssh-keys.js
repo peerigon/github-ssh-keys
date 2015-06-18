@@ -5,8 +5,6 @@
 var fetchKeys = require('../index');
 var argv = require('minimist')(process.argv.slice(2), {boolean: true});
 
-console.log(argv);
-
 Promise.all(argv._.map(fetchKeys))
     .then(function (res) {
         if (argv.format) {
