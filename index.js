@@ -18,7 +18,7 @@ function fetchKeys(username) {
             }
 
             resolve({
-                userName: username,
+                username: username,
                 keys: body.split('\n')
             });
         });
