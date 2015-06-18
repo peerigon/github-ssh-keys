@@ -16,6 +16,9 @@
     "github",
     "user"
   ],
+  "engine": {
+    "node": ">= 0.12"
+  },
   "bin": {
     "github-ssh-keys": "bin/github-ssh-keys.js"
   },
