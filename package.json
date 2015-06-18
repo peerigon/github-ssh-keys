@@ -1,6 +1,6 @@
 {
   "name": "github-ssh-keys",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "fetch ssh keys for given usernames from github",
   "main": "index.js",
   "scripts": {
