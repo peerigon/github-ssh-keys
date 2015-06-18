@@ -8,7 +8,27 @@ fetch ssh keys from github for a given username
 
 As we use [ES6 template strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings) make sure to use **io.js** when using this module!
 
-## Usage
+## Usage (cli)
+
+Use `github-ssh-keys` to fetch users ssh public keys from github.
+
+```bash
+$ github-ssh-keys flootr meaku
+```
+
+### --format
+
+If you use the `--format` flag you are able to auto format keys to fit in a `authorized-keys` file.
+
+```bash
+$ github-ssh-keys --format flootr meaku jhnns > authorized_keys
+```
+
+### --format
+
+
+
+## Library (API)
 
 ```javascript
 var fetchKeys = require('git-fetch-ssh');
