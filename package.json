@@ -1,5 +1,5 @@
 {
-  "name": "git-fetch-ssh",
+  "name": "github-ssh-keys",
   "version": "0.0.1",
   "description": "fetch ssh keys for given usernames from github",
   "main": "index.js",

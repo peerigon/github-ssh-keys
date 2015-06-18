@@ -1,4 +1,4 @@
-# github-keys
+# github-ssh-keys
 fetch ssh keys from github for a given username
 
 ## Important Notice
