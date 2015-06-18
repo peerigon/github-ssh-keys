@@ -1,0 +1,25 @@
+{
+  "name": "git-fetch-ssh",
+  "version": "0.0.1",
+  "description": "fetch ssh keys for given usernames from github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peerigon/git-fetch-ssh.git"
+  },
+  "keywords": [
+    "git",
+    "ssh",
+    "public-key",
+    "github"
+  ],
+  "author": "Markus Dobmann <markus.dobmann@peerigon.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peerigon/git-fetch-ssh/issues"
+  },
+  "homepage": "https://github.com/peerigon/git-fetch-ssh#readme"
+}
