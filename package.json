@@ -11,10 +11,10 @@
     "url": "git+https://github.com/peerigon/git-fetch-ssh.git"
   },
   "keywords": [
-    "git",
     "ssh",
     "public-key",
-    "github"
+    "github",
+    "user"
   ],
   "author": "Markus Dobmann <markus.dobmann@peerigon.com>",
   "license": "MIT",
