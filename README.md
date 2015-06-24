@@ -20,10 +20,6 @@ If you use the `--format` flag you are able to auto format keys to fit in a `aut
 $ github-ssh-keys --format flootr meaku jhnns >> authorized_keys
 ```
 
-### --format
-
-
-
 ## Library (API)
 
 ```javascript

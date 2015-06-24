@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peerigon/git-fetch-ssh.git"
+    "url": "git+https://github.com/peerigon/github-ssh-keys.git"
   },
   "keywords": [
     "ssh",
@@ -25,9 +25,9 @@
   "author": "Markus Dobmann <markus.dobmann@peerigon.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/peerigon/git-fetch-ssh/issues"
+    "url": "https://github.com/peerigon/github-ssh-keys/issues"
   },
-  "homepage": "https://github.com/peerigon/git-fetch-ssh#readme",
+  "homepage": "https://github.com/peerigon/github-ssh-keys#readme",
   "dependencies": {
     "minimist": "^1.1.1",
     "request": "^2.58.0"
