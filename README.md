@@ -23,7 +23,7 @@ $ github-ssh-keys --format flootr meaku jhnns >> authorized_keys
 ## Library (API)
 
 ```javascript
-var fetchKeys = require('git-fetch-ssh');
+var fetchKeys = require('github-ssh-keys');
 var username = 'flootr';
 
 fetchKeys(username)
