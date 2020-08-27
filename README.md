@@ -23,20 +23,26 @@ $ github-ssh-keys --format flootr meaku jhnns >> authorized_keys
 ## Library (API)
 
 ```javascript
-var fetchKeys = require('github-ssh-keys');
-var username = 'flootr';
+var fetchKeys = require("github-ssh-keys");
+var username = "flootr";
 
-fetchKeys(username)
-    .then(console.log)
-    .catch(console.error);
+fetchKeys(username).then(console.log).catch(console.error);
 ```
 
 Or, if you want to fetch the keys for more than one user.
 
 ```javascript
-var users = ['jhnns', 'meaku', 'topa', 'matthaias', 'sbat', 'flootr'];
+var users = ["jhnns", "meaku", "topa", "matthaias", "sbat", "flootr"];
 
-Promise.all(users.map(fetchKeys))
-    .then(console.log)
-    .catch(console.error);
+Promise.all(users.map(fetchKeys)).then(console.log).catch(console.error);
 ```
+
+---
+
+## License
+
+MIT
+
+## Sponsors
+
+[<img src="https://assets.peerigon.com/peerigon/logo/peerigon-logo-flat-spinat.png" width="150" />](https://peerigon.com)
